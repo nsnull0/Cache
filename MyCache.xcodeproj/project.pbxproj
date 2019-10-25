@@ -10,7 +10,7 @@
 		CD2EC40E2362A99E009C23FA /* MyCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2EC4042362A99E009C23FA /* MyCache.framework */; };
 		CD2EC4132362A99E009C23FA /* MyCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2EC4122362A99E009C23FA /* MyCacheTests.swift */; };
 		CD2EC4152362A99E009C23FA /* MyCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2EC4072362A99E009C23FA /* MyCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD2EC41F2362A9E7009C23FA /* MyCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2EC41E2362A9E7009C23FA /* MyCache.swift */; };
+		CD2EC41F2362A9E7009C23FA /* MyCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2EC41E2362A9E7009C23FA /* MyCache.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -273,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -330,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -394,7 +394,6 @@
 		CD2EC41C2362A99E009C23FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyCacheTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -412,7 +411,6 @@
 		CD2EC41D2362A99E009C23FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyCacheTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

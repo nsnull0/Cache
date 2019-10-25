@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double MyCacheVersionNumber;
 FOUNDATION_EXPORT const unsigned char MyCacheVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MyCache/PublicHeader.h>
-
-
