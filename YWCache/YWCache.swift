@@ -8,7 +8,7 @@
 
 import UIKit
 
-public final class MyCache<Key: Hashable, Value> {
+public final class YWCache<Key: Hashable, Value> {
     private let wrapped = NSCache<WrappedKey, Entry>()
     private let keyObserver = KeyObserver()
 
@@ -49,7 +49,7 @@ public final class MyCache<Key: Hashable, Value> {
     }
 }
 
-private extension MyCache {
+private extension YWCache {
     final class WrappedKey: NSObject {
         let key: Key
         init(_ key: Key) {
@@ -65,7 +65,7 @@ private extension MyCache {
     }
 }
 
-private extension MyCache {
+private extension YWCache {
     final class Entry {
         let key: Key
         let value: Value
@@ -78,7 +78,7 @@ private extension MyCache {
     }
 }
 
-private extension MyCache {
+private extension YWCache {
     subscript(key: Key) -> Value? {
         get { return get(forKey: key) }
         set {
@@ -91,7 +91,7 @@ private extension MyCache {
     }
 }
 
-private extension MyCache {
+private extension YWCache {
     final class KeyObserver: NSObject, NSCacheDelegate {
         var keys = Set<Key>()
         func cache(_ cache: NSCache<AnyObject, AnyObject>, willEvictObject obj: Any) {
@@ -103,7 +103,7 @@ private extension MyCache {
     }
 }
 
-extension MyCache {
+extension YWCache {
     /*
      WARNING: better use core data or any persistance framework out there
      TO DO: Still in development for saving to disk

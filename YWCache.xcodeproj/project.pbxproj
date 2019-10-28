@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD2EC40E2362A99E009C23FA /* MyCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2EC4042362A99E009C23FA /* MyCache.framework */; };
+		CD2EC40E2362A99E009C23FA /* YWCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2EC4042362A99E009C23FA /* YWCache.framework */; };
 		CD2EC4132362A99E009C23FA /* MyCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2EC4122362A99E009C23FA /* MyCacheTests.swift */; };
-		CD2EC4152362A99E009C23FA /* MyCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2EC4072362A99E009C23FA /* MyCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD2EC41F2362A9E7009C23FA /* MyCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2EC41E2362A9E7009C23FA /* MyCache.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD2EC4152362A99E009C23FA /* YWCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2EC4072362A99E009C23FA /* YWCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD2EC41F2362A9E7009C23FA /* YWCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2EC41E2362A9E7009C23FA /* YWCache.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,13 +24,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CD2EC4042362A99E009C23FA /* MyCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD2EC4072362A99E009C23FA /* MyCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCache.h; sourceTree = "<group>"; };
+		CD2EC4042362A99E009C23FA /* YWCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YWCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2EC4072362A99E009C23FA /* YWCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWCache.h; sourceTree = "<group>"; };
 		CD2EC4082362A99E009C23FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD2EC40D2362A99E009C23FA /* MyCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2EC40D2362A99E009C23FA /* YWCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2EC4122362A99E009C23FA /* MyCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCacheTests.swift; sourceTree = "<group>"; };
 		CD2EC4142362A99E009C23FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD2EC41E2362A9E7009C23FA /* MyCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCache.swift; sourceTree = "<group>"; };
+		CD2EC41E2362A9E7009C23FA /* YWCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2EC40E2362A99E009C23FA /* MyCache.framework in Frameworks */,
+				CD2EC40E2362A99E009C23FA /* YWCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +55,7 @@
 		CD2EC3FA2362A99E009C23FA = {
 			isa = PBXGroup;
 			children = (
-				CD2EC4062362A99E009C23FA /* MyCache */,
+				CD2EC4062362A99E009C23FA /* YWCache */,
 				CD2EC4112362A99E009C23FA /* MyCacheTests */,
 				CD2EC4052362A99E009C23FA /* Products */,
 			);
@@ -64,20 +64,20 @@
 		CD2EC4052362A99E009C23FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD2EC4042362A99E009C23FA /* MyCache.framework */,
-				CD2EC40D2362A99E009C23FA /* MyCacheTests.xctest */,
+				CD2EC4042362A99E009C23FA /* YWCache.framework */,
+				CD2EC40D2362A99E009C23FA /* YWCacheTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD2EC4062362A99E009C23FA /* MyCache */ = {
+		CD2EC4062362A99E009C23FA /* YWCache */ = {
 			isa = PBXGroup;
 			children = (
-				CD2EC4072362A99E009C23FA /* MyCache.h */,
-				CD2EC41E2362A9E7009C23FA /* MyCache.swift */,
+				CD2EC4072362A99E009C23FA /* YWCache.h */,
+				CD2EC41E2362A9E7009C23FA /* YWCache.swift */,
 				CD2EC4082362A99E009C23FA /* Info.plist */,
 			);
-			path = MyCache;
+			path = YWCache;
 			sourceTree = "<group>";
 		};
 		CD2EC4112362A99E009C23FA /* MyCacheTests */ = {
@@ -96,16 +96,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2EC4152362A99E009C23FA /* MyCache.h in Headers */,
+				CD2EC4152362A99E009C23FA /* YWCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CD2EC4032362A99E009C23FA /* MyCache */ = {
+		CD2EC4032362A99E009C23FA /* YWCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD2EC4182362A99E009C23FA /* Build configuration list for PBXNativeTarget "MyCache" */;
+			buildConfigurationList = CD2EC4182362A99E009C23FA /* Build configuration list for PBXNativeTarget "YWCache" */;
 			buildPhases = (
 				CD2EC3FF2362A99E009C23FA /* Headers */,
 				CD2EC4002362A99E009C23FA /* Sources */,
@@ -116,14 +116,14 @@
 			);
 			dependencies = (
 			);
-			name = MyCache;
+			name = YWCache;
 			productName = MyCache;
-			productReference = CD2EC4042362A99E009C23FA /* MyCache.framework */;
+			productReference = CD2EC4042362A99E009C23FA /* YWCache.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CD2EC40C2362A99E009C23FA /* MyCacheTests */ = {
+		CD2EC40C2362A99E009C23FA /* YWCacheTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD2EC41B2362A99E009C23FA /* Build configuration list for PBXNativeTarget "MyCacheTests" */;
+			buildConfigurationList = CD2EC41B2362A99E009C23FA /* Build configuration list for PBXNativeTarget "YWCacheTests" */;
 			buildPhases = (
 				CD2EC4092362A99E009C23FA /* Sources */,
 				CD2EC40A2362A99E009C23FA /* Frameworks */,
@@ -134,9 +134,9 @@
 			dependencies = (
 				CD2EC4102362A99E009C23FA /* PBXTargetDependency */,
 			);
-			name = MyCacheTests;
+			name = YWCacheTests;
 			productName = MyCacheTests;
-			productReference = CD2EC40D2362A99E009C23FA /* MyCacheTests.xctest */;
+			productReference = CD2EC40D2362A99E009C23FA /* YWCacheTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD2EC3FE2362A99E009C23FA /* Build configuration list for PBXProject "MyCache" */;
+			buildConfigurationList = CD2EC3FE2362A99E009C23FA /* Build configuration list for PBXProject "YWCache" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,8 +171,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD2EC4032362A99E009C23FA /* MyCache */,
-				CD2EC40C2362A99E009C23FA /* MyCacheTests */,
+				CD2EC4032362A99E009C23FA /* YWCache */,
+				CD2EC40C2362A99E009C23FA /* YWCacheTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2EC41F2362A9E7009C23FA /* MyCache.swift in Sources */,
+				CD2EC41F2362A9E7009C23FA /* YWCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +216,7 @@
 /* Begin PBXTargetDependency section */
 		CD2EC4102362A99E009C23FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD2EC4032362A99E009C23FA /* MyCache */;
+			target = CD2EC4032362A99E009C23FA /* YWCache */;
 			targetProxy = CD2EC40F2362A99E009C23FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,7 +359,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = yws.MyCache;
+				PRODUCT_BUNDLE_IDENTIFIER = yws.YWCache;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -385,7 +385,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = yws.MyCache;
+				PRODUCT_BUNDLE_IDENTIFIER = yws.YWCache;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -430,7 +430,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD2EC3FE2362A99E009C23FA /* Build configuration list for PBXProject "MyCache" */ = {
+		CD2EC3FE2362A99E009C23FA /* Build configuration list for PBXProject "YWCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD2EC4162362A99E009C23FA /* Debug */,
@@ -439,7 +439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD2EC4182362A99E009C23FA /* Build configuration list for PBXNativeTarget "MyCache" */ = {
+		CD2EC4182362A99E009C23FA /* Build configuration list for PBXNativeTarget "YWCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD2EC4192362A99E009C23FA /* Debug */,
@@ -448,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD2EC41B2362A99E009C23FA /* Build configuration list for PBXNativeTarget "MyCacheTests" */ = {
+		CD2EC41B2362A99E009C23FA /* Build configuration list for PBXNativeTarget "YWCacheTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD2EC41C2362A99E009C23FA /* Debug */,
