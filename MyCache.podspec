@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "MyCache"
-  spec.version      = "1"
+  spec.name         = "YWCache"
+  spec.version      = "1.0.2"
   spec.summary      = "Cache Data"
 
   # This description is used to generate tags and improve search results.
